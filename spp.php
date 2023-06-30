@@ -243,5 +243,5 @@ $data_spp = select("SELECT * FROM t_spp ORDER BY id_spp ASC");
 
 <?php  }
 else {
-    header("location:index.php");
+    header("location:infoakun.php");
 } ?>

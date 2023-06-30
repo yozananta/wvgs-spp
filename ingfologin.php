@@ -22,7 +22,7 @@ $password = md5($_POST['password']);
 		$_SESSION['alamat'] = $r['alamat'];
 		$_SESSION['telepon'] = $r['telepon'];
 		$_SESSION['level'] = 'siswa';
-		header('location:index.php');
+		header('location:infoakun.php');
 	} elseif (mysqli_num_rows($q2) == 1) {
 		if ($row['level'] == "admin") {
 			$_SESSION['petugas_id'] = $row['id_petugas'];
@@ -39,7 +39,7 @@ $password = md5($_POST['password']);
 		}
 	} else {
 		$_SESSION['gagal'] = "";
-		header("location:login.php");
+		header("location:index.php");
 	}
 
 ?>

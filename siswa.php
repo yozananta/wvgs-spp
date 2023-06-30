@@ -352,5 +352,5 @@ $getnom = mysqli_query($koneksi, "SELECT * FROM t_spp");
 
 <?php  }
 else {
-    header("location:index.php");
+    header("location:infoakun.php");
 } ?>

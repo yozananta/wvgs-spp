@@ -377,5 +377,5 @@ include "layout/header.php";
 
 <?php  }
 else {
-    header("location:index.php");
+    header("location:infoakun.php");
 } ?>

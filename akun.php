@@ -122,7 +122,7 @@ $data_akun = select("SELECT * FROM t_petugas ORDER BY id_petugas ASC");
             </table>
         </div>
 
-        <div class="modal fade text-left" id="modalTambah" tabindex="-1" role="dialog" aria-labelledby="modalTambah"
+        <div class="modal fade text-left" id="modalTambah" tabinfologin="-1" role="dialog" aria-labelledby="modalTambah"
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
                 <div class="modal-content">
@@ -177,7 +177,7 @@ $data_akun = select("SELECT * FROM t_petugas ORDER BY id_petugas ASC");
         </div>
 
         <?php foreach ($data_akun as $akun) : ?>
-        <div class="modal fade text-left" id="modalEdit<?= $akun['id_petugas']; ?>" tabindex="-1" role="dialog"
+        <div class="modal fade text-left" id="modalEdit<?= $akun['id_petugas']; ?>" tabinfologin="-1" role="dialog"
             aria-labelledby="modalEdit" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
                 <div class="modal-content">
@@ -235,7 +235,7 @@ $data_akun = select("SELECT * FROM t_petugas ORDER BY id_petugas ASC");
         <?php endforeach; ?>
 
         <?php foreach ($data_akun as $akun) : ?>
-        <div class="modal fade text-left" id="modalHapus<?= $akun['id_petugas']?>" tabindex="-1" role="dialog"
+        <div class="modal fade text-left" id="modalHapus<?= $akun['id_petugas']?>" tabinfologin="-1" role="dialog"
             aria-labelledby="modalEdit" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
                 <div class="modal-content">
@@ -274,5 +274,5 @@ $data_akun = select("SELECT * FROM t_petugas ORDER BY id_petugas ASC");
 
 <?php  }
 else {
-    header("location:index.php");
+    header("location:infologin.php");
 } ?>
