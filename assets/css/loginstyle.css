@@ -1,0 +1,465 @@
+@font-face {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLFj_Z11lFc-K.woff2) format("woff2");
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB
+}
+
+@font-face {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLFj_Z1JlFc-K.woff2) format("woff2");
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLFj_Z1xlFQ.woff2) format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+}
+
+@font-face {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z11lFc-K.woff2) format("woff2");
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB
+}
+
+@font-face {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z1JlFc-K.woff2) format("woff2");
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2) format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+}
+
+@font-face {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJbecmNE.woff2) format("woff2");
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB
+}
+
+@font-face {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format("woff2");
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecg.woff2) format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+}
+
+@font-face {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2) format("woff2");
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB
+}
+
+@font-face {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2) format("woff2");
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2) format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+}
+
+@font-face {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2) format("woff2");
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB
+}
+
+@font-face {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2) format("woff2");
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2) format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+}
+
+@font-face {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z11lFc-K.woff2) format("woff2");
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB
+}
+
+@font-face {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1JlFc-K.woff2) format("woff2");
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2) format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400
+}
+
+a {
+    color: #675ecc;
+    text-decoration: none;
+    transition: all .3s ease
+}
+
+a:hover {
+    color: #2c2760;
+    text-decoration: none
+}
+
+body {
+    background: #e4e9f7
+}
+
+::selection {
+    background: #322f57;
+    color: #fff
+}
+
+::-moz-selection {
+    background: #322f57;
+    color: #fff
+}
+
+.vh {
+    height: 100vh
+}
+
+.bg-utama {
+    position: absolute;
+    top: 0;
+    background-image: url(../images/bg/smknbg.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+    opacity: 1
+}
+
+.bg-utama::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: linear-gradient(to top, #151521, rgba(0, 0, 0, .1));
+    bottom: 0
+}
+
+.tengah {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding: 16px 10px;
+    z-index: 1
+}
+
+.tengahh {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding: 16px 10px;
+    z-index: 1
+}
+
+.card {
+    width: 30rem;
+    border: none;
+    border-top: 5px solid #5a53ad;
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .1);
+    transition: all .5s ease
+}
+
+.card:hover {
+    border-color: #8c83f0
+}
+
+.card-title {
+    font-size: 30px;
+    font-weight: 600;
+    display: inline-block
+}
+
+.card-body {
+    padding: 50px 40px 40px
+}
+
+.card-body img {
+    height: 50px;
+    margin-top: -10px;
+    margin-right: 2px
+}
+
+label {
+    color: #73798c;
+    background: #fff;
+    font-size: 9pt;
+    font-weight: 600;
+    margin-top: -10px;
+    margin-left: 15px;
+    padding: 3px 10px;
+    position: absolute
+}
+
+.form_login {
+    border: 3px solid #e5e3ff;
+    border-radius: 12px;
+    box-sizing: border-box;
+    background: #fff;
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    margin-bottom: 25px;
+    transition: all .5s ease
+}
+
+.form_login:focus {
+    border-color: #5a53ad
+}
+
+.btn.active,
+.btn:active,
+.input:focus,
+button:active,
+button:focus,
+button:hover,
+label:focus,
+textarea:active,
+textarea:focus,
+textarea:hover {
+    outline: 0 !important;
+    -webkit-appearance: none;
+    box-shadow: none !important
+}
+
+.selectmenu {
+    border: 3px solid #e5e3ff;
+    border-radius: 12px;
+    height: 55px;
+    font-size: 16px
+}
+
+.selectmenu:focus {
+    border: 3px solid #5a53ad;
+    box-shadow: none !important
+}
+
+optgroup {
+    background: #e5e3ff
+}
+
+option {
+    background: #e5e3ff
+}
+
+.btn {
+    border-radius: .375rem
+}
+
+.btn-light {
+    color: #fff;
+    background: #5a53ad;
+    border-color: #5a53ad
+}
+
+.btn-light:hover {
+    color: #fff;
+    background: #383472;
+    border-color: #383472
+}
+
+.btn-light:not(:disabled):not(.disabled).active,
+.btn-light:not(:disabled):not(.disabled):active,
+.show>.btn-light.dropdown-toggle {
+    color: #fff;
+    background: #383472;
+    border-color: #1e1b3b
+}
+
+.inisatu {
+    position: relative
+}
+
+.input-addon i {
+    position: absolute;
+    top: 50%;
+    right: 17px;
+    transform: translateY(-99%);
+    font-size: 25px;
+    background: #fff
+}
+
+.tombol_login {
+    border-radius: 12px;
+    background: #322f57;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    border: none;
+    padding: 15px 20px;
+    transition: all .5s ease
+}
+
+.tombol_login:hover {
+    color: #fff;
+    background: #1d1b31
+}
+
+.clear {
+    clear: both
+}
+
+.elcreative-ripple-effect {
+    position: relative;
+    overflow: hidden;
+    transform: translateZ(0)
+}
+
+.elc-ripple-effect {
+    display: block;
+    position: absolute;
+    pointer-events: none;
+    border-radius: 50%;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    background: #fff;
+    opacity: .4
+}
+
+.elc-ripple-effect.animate {
+    -webkit-animation: elcreative-ripple-effect .4s linear;
+    animation: elcreative-ripple-effect .4s linear
+}
+
+@keyframes elcreative-ripple-effect {
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(2.4);
+        transform: scale(2.4)
+    }
+}
+
+@-webkit-keyframes elcreative-ripple-effect {
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(2.4);
+        transform: scale(2.4)
+    }
+}
+
+@media (min-width:1024px) {
+    ::-webkit-scrollbar {
+        -webkit-appearance: none;
+        width: 7px;
+        height: 5px
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, .15)
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: transparent
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: rgba(0, 0, 0, .25)
+    }
+}
+
+@media (max-width:475px) {
+
+    *,
+    .form_login,
+    .selectmenu,
+    .tombol_login {
+        font-size: 14px
+    }
+
+    .card-body {
+        padding: 50px 20px 30px
+    }
+}
